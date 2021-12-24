@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" href="layouts.css">
+
+    <!-- font title style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap" rel="stylesheet">
+
+    <!-- font text style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;1,700&display=swap" rel="stylesheet">
+    <style>
+
+        /* .wrapper > * {
+          background-color: lightgray;
+          border: 2px;
+          border-color: black;
+        } */
+
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+      <nav class = "navigation_bar fixed_top">
+        <div class="container">
+            <a class="navigation_bar_brand">Start Bootstrap</a>
+            <ul class="navigation_bar_links">
+                <li><a class="navigate_link">About</a></li>
+                <li><a class="navigate_link">Projects</a></li>
+                <li><a class="navigate_link">Contact</a></li>
+            </ul>
+        </div>
+      </nav>
+
+      <header>
+        <div class="container items_center"> <!-- align_items_center justify_content_center = items_center -->
+          <div class="justify_content_center">
+            <div class="text_center">
+              <h1>Grayscale</h1>
+              <h2>A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
+              <a class="get_started_button" href="#about">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- About-->
+      <section class="about_section items_center">
+        <div class="container">
+          <div class="row">
+            <div class="colum">
+              <h2>Built with Bootstrap 5</h2>
+              <p>
+                Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
+                  <!-- <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a> -->
+                The theme is open source, and you can use it for any purpose, personal or commercial.
+              </p>
+            </div>
+            <img src="resources/ipad.png">
+          </div>
+        </div>
+      </section>
+      
+
+      
+      <section class="projects colum">section2
+        <div class="container">
+
+
+          <div class="row">
+            <div class="colum_8">
+              <img src="resources/bg-masthead.jpg">
+            </div>
+          
+            <div class="colum_4">
+              <div class="text_center">
+                  <h4>Shoreline</h4>
+                  <p class="text_black">Grayscale is open source and MIT licensed. This means you can use it for any project -
+                    even commercial projects! Download it, customize it, and publish your website!</p>
+              </div>
+            </div>
+          </div>
+<!-- 
+        <div class="row">
+          <div class="colum_6">
+            <img src="resources/demo-image-01.jpg">
+          </div>
+
+          <div class="colum_6">
+            <div class="project_text text_center text_left">
+              <h4 class="text_white">Misty</h4>
+              <p>An example of where you can put an image of a project, or anything else, along with a description.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="colum_6">
+            <img src="resources/demo-image-02.jpg">
+          </div>
+
+          <div class="colum_6">
+            <div class="project_text text_center text_left">
+              <h4 class="text_white">Mountains</h4>
+              <p>Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+            </div>
+          </div>
+        </div> -->
+
+
+        </div>
+      </section>
+
+      <!-- Signup-->
+      <section class="signup_section">
+        <div class="items_center">
+            <div class="text_center">
+              <img src="resources/telegram.png">
+              <h2>Subscribe to receive updates!</h2>
+              <div class="form">
+                <form class="colum">
+                  <input type="email" id="email" name="email" placeholder="Enter email address..." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required >
+                  <button class="notify_me_button" type="submit" >Notify me</button>
+                </form>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+
+    <!-- Contact-->
+    <section class="contact_section ">
+      <div class="row">
+        <div class="container">
+          
+          <div class="colum">
+            <div class="card">
+            <div class="card_body text_center">
+              <img src="resources/map.png">
+              <h4>Address</h4>
+              <hr>
+              <div class="small">4923 Market Street, Orlando FL</div>
+            </div>
+            </div>
+          </div>
+
+          <div class="colum">
+            <div class="card">
+              <div class="card_body text_center">
+                <img src="resources/email.png">
+                <h4 >Email</h4>
+                <hr>
+                <div class="small "><a>hello@yourdomain.com</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="colum">
+              <div class="card">
+                <div class="card_body text_center">
+                  <img src="resources/smartphone.png">
+                  <h4>Phone</h4>
+                  <hr>
+                  <div class="small">+1 (555) 902-8832</div>
+                </div>
+              </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="social">
+        <a class="twitter"><div class="grayBox"><img src="resources/twitter.png"></div></a>
+        <a class="facebook"><div class="grayBox"><img src="resources/facebook.png"></div></a>
+        <a class="github"><div class="grayBox"><img src="resources/github.png"></div></a>
+      </div>
+
+     
+
+  </section>
+
+
+    <!-- Footer-->
+    <footer class="footer">
+      <div class="container">
+        Copyright &copy; Your Website 2021
+      </div>
+    </footer>
+
+
+    </div>
+  </body>
+
+
+</html>
